@@ -9,7 +9,7 @@ $( document ).ready(function() {
       $('time').html(content);
      var eventdate = moment("2017-05-29");
      var count =  eventdate.diff(moment(), 'days');
-     $('p.sub').html(count + ' days');
+     $('p.sub').html(count + ' <span>days</span>');
 
   }, 1000);
   
